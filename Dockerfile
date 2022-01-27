@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.9-slim-bullseye
 LABEL maintainer "devs@bigchaindb.com"
 RUN mkdir -p /usr/src/app
 COPY . /usr/src/app/
