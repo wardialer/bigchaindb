@@ -1,4 +1,4 @@
-FROM nginx:stable
+FROM nginx:1.20
 LABEL maintainer "devs@bigchaindb.com"
 WORKDIR /
 RUN apt-get update \
